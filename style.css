@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232c2c2c' fill-opacity='0.12' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+body ul, body li {
+  list-style: none;
+}
+
+body a, body p, body h1, body h2, body label, body li, body span {
+  color: #2C2C2C;
+  font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+  text-transform: uppercase;
+}
+
+body input {
+  color: #2C2C2C;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.deleteButton {
+  background-color: #D90416;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #F9F9F9;
+  font-size: 16px;
+  padding: 0px 5px 2px;
+  margin: 10px 0;
+  margin-right: 10px;
+}
+
+.main-content {
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 50px 200px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+span {
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
