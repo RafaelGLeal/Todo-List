@@ -1,9 +1,10 @@
 window.addEventListener('load', start);
-
-let globalTasks = new Array ();
+let taskLenght = document.getElementById('task-le');
+let globalTasks = new Array ('Clique para editar');
 let inputTask = null;
 let isEditing = false;
 let currentIndex = null;
+
 
 function start(){
     inputTask = document.getElementById('inputText');
@@ -78,6 +79,14 @@ function render(){
         return span
     }
 
+    function clear(){
+        globalTasks.length = 0;
+        render()
+    }
+    let clearAll = document.getElementById('clear');
+    clearAll.addEventListener('click', clear)
+
+    taskLenght.innerHTML = `<p>${globalTasks.length} items left</p>`
     let divTasks = document.querySelector('#tasks')
     divTasks.innerHTML = '';
     let ul = document.createElement('ul');
