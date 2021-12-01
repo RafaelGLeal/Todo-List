@@ -1,6 +1,6 @@
 window.addEventListener('load', start);
 let taskLenght = document.getElementById('task-le');
-let globalTasks = new Array ('Clique para editar');
+let globalTasks = new Array ('Click to edit');
 let inputTask = null;
 let isEditing = false;
 let currentIndex = null;
