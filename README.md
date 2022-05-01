@@ -24,7 +24,7 @@ A web app Todo list builded with vanilla js.
 ### Links
 
 - Solution URL: [Github repository](https://github.com/RafaelGLeal/Todo-List)
-- Live Site URL: [Live Site](https://rafaelgleal.github.io/Todo-List/)
+- Live Site URL: [Live Site](https://todolistrgl.netlify.app/)
 
 ### Built with
 
